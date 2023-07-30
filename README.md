@@ -58,8 +58,6 @@ python Image_compression_using_Open_cv_and_PCA_.ipynb --image <input_image> [--n
 
 # Implementation Details
 
-# The core PCA algorithm is implemented in `pca.py`. It contains functions to:
-
 - Calculate covariance matrix
 - Compute PCA with SVD
 - Project points onto PCA space  
