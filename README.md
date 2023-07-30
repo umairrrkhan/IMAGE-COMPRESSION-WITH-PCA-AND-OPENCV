@@ -18,9 +18,9 @@ This repository contains the code and resources for a project focused on image c
 10. Optionally quantize feature vector for increased compression 
 11. Calculate compression ratio and visualize results
 
-# PCA is used for dimensionality reduction by projecting the original high-dimensional data onto a lower-dimensional space defined by the principal components. This removes redundant data and allows the important structure of the image to be captured in fewer components.
+- PCA is used for dimensionality reduction by projecting the original high-dimensional data onto a lower-dimensional space defined by the principal components. This removes redundant data and allows the important structure of the image to be captured in fewer components.
 
-# For image compression, we retain only the components with the largest eigenvalues, as these contain the most information about the image. The remaining components are discarded, resulting in a compressed representation of the image.
+- For image compression, we retain only the components with the largest eigenvalues, as these contain the most information about the image. The remaining components are discarded, resulting in a compressed representation of the image.
 
 
 # Dependencies
