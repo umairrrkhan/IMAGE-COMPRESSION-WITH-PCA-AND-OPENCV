@@ -91,5 +91,4 @@ This repository contains the code and resources for a project focused on image c
 
 # - umairh1819@gmail.com
 
-# For any questions, please reach out to me at name@email.com
  
