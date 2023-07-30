@@ -36,34 +36,34 @@ This repository contains the code and resources for a project focused on image c
 
 # Run it as: 
 
-# ```
-# python Image_compression_using_Open_cv_and_PCA_.ipynb --image <input_image> [--num_components <k>] [--quantize]  
-# ```
+```
+python Image_compression_using_Open_cv_and_PCA_.ipynb --image <input_image> [--num_components <k>] [--quantize]  
+ ```
 
 # This will:
 
-# - Load image and convert to grayscale if needed
-# - Calculate PCA and retain k principal components
-# - Project image onto PCA space 
-# - Reconstruct compressed image
-# - Calculate compression ratio
-# - Visualize original, PCA reconstruction, and quantized (if enabled)
+Load image and convert to grayscale if needed
+Calculate PCA and retain k principal components
+Project image onto PCA space 
+Reconstruct compressed image
+Calculate compression ratio
+Visualize original, PCA reconstruction, and quantized (if enabled)
 
 # The key parameters are:
 
-# - `--image`: Input image path
-# - `--num_components`: Number of principal components to retain (k). More components preserves more information but is less compressed. Default is 150.  
-# - `--quantize`: Enable quantization of the feature vector. This further compresses the image but loses more information.
+- `--image`: Input image path
+- `--num_components`: Number of principal components to retain (k). More components preserves more information but is less compressed. Default is 150.  
+- `--quantize`: Enable quantization of the feature vector. This further compresses the image but loses more information.
 
 
 # Implementation Details
 
 # The core PCA algorithm is implemented in `pca.py`. It contains functions to:
 
-# - Calculate covariance matrix
-# - Compute PCA with SVD
-# - Project points onto PCA space  
-# - Reconstruct points from PCA space
+- Calculate covariance matrix
+- Compute PCA with SVD
+- Project points onto PCA space  
+- Reconstruct points from PCA space
 
 # The main `Image_compression_using_Open_cv_and_PCA_.ipynb` script ties all the components together.
 
